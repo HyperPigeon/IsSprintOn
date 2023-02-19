@@ -12,8 +12,7 @@ public class IsSprintOnClient implements ClientModInitializer {
     public void onInitializeClient() {
         ClientTickEvents.END_CLIENT_TICK.register(
                 client -> {
-                    assert client.player != null;
-                    if(client.player.isSprinting()){
+                    if(client.player != null && client.player.isSprinting()){
                         client.player.sendMessage(Text.translatable("SPRINTING"), true);
                     }
                 }
