@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "IsSprintOn",
+  "version": "${version}",
+  "name": "IsSprintOn",
+  "description": "A mod I made because I have FOV Effects turned down to 0% and I can't tell when my sprint is on :(",
+  "authors": [
+    "CyborgPigeon"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/IsSprintOn/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "net.hyper_pigeon.issprinton.client.IsSprintOnClient"
+    ]
+  },
+  "mixins": [
+    "IsSprintOn.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.14",
+    "fabric": "*",
+    "minecraft": "1.19.2"
+  }
+}
