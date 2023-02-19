@@ -27,10 +27,10 @@ public class IsSprintOnClient implements ClientModInitializer {
 
             if(MinecraftClient.getInstance().player != null) {
                 if(MinecraftClient.getInstance().player.isSprinting()){
-                    textRenderer.drawWithShadow(matrixStack, "SPRINTING", ((float)scaledWidth/2)-20, scaledHeight - 60, 0xFFFFFF);
+                    textRenderer.drawWithShadow(matrixStack, "SPRINTING", ((float)scaledWidth/2)-20, scaledHeight - 75, 0xFFFFFF);
                 }
                 else {
-                    textRenderer.drawWithShadow(matrixStack, "WALKING", ((float)scaledWidth/2)-20, scaledHeight - 60, 0xFFFFFF);
+                    textRenderer.drawWithShadow(matrixStack, "WALKING", ((float)scaledWidth/2)-20, scaledHeight - 75, 0xFFFFFF);
                 }
             }
 
