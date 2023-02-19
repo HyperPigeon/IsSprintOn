@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "IsSprintOn",
+  "id": "is_sprint_on",
   "version": "${version}",
   "name": "IsSprintOn",
   "description": "A mod I made because I have FOV Effects turned down to 0% and I can't tell when my sprint is on :(",
